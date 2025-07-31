@@ -123,10 +123,6 @@ namespace big
 				{
 					MessageBoxA(m_hwnd, message.c_str(), "YimMenu", MB_ICONWARNING | MB_TOPMOST);
 				}
-
-				Logger::FlushQueue();
-
-				std::exit(EXIT_FAILURE);
 			}
 		}
 
